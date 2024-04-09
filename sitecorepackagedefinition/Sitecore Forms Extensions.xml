@@ -1,15 +1,15 @@
 <project>
   <Metadata>
     <metadata>
-      <PackageName>Sitecore Forms Extensions for SC10.1</PackageName>
+      <PackageName>Sitecore Forms Extensions for SC10.3</PackageName>
       <Author>Bart Verdonck</Author>
-      <Version>4.0.2</Version>
+      <Version>4.1.0</Version>
       <Revision />
       <License />
       <Comment />
       <Attributes />
       <Readme>Sitecore Forms Extensions is an add-on to Sitecore Forms.
-This packages is compatible with Sitecore 10.1
+This packages is compatible with Sitecore 10.3
 
 Documentation on http://onelittlespark.bartverdonck.be/sitecoreformsextentions/
 

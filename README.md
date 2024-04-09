@@ -8,10 +8,14 @@
 
 > Check my blogposts on http://onelittlespark.bartverdonck.be/category/sitecore-forms-extensions/ for inspiration.
 
+## TODO
+- Migrate the project to use package references
+- add 10.3 support for Docker
+
 ## Downloads ⬇️
 ### Install packages
 
-> [Sitecore install packages can be found here](https://github.com/bartverdonck/Sitecore-Forms-Extensions/tree/master/downloads)
+> [Sitecore install packages can be found here](downloads)
 
 ### Container (image for container integration)
 
@@ -30,6 +34,7 @@ Note that the nuget package only contains the Sitecore Forms Extensions codebase
 
 ## Compatibility 🧩
 
+- For Sitecore 10.3 use version 4.1
 - For Sitecore 10.1 use version 4.0
 - For Sitecore 10 use version 3.2
 - For Sitecore 9.3 use version 3.2
@@ -84,6 +89,9 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
 When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
 ## Changelog 📜
+### 4.1.0 (for Sitecore 10.3)
+- Updated compatibility with SC10.3
+
 ### 4.0.2 (for Sitecore 10.1)
 - Fix: Issue 115, serialization annotation added on list component viewmodels
 
