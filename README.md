@@ -89,6 +89,9 @@ Want to contribute to SFE? Great! This section will explain how to setup the pro
 When adding new functionality to the codebase, please add a test-form in the sitecore content tree (/sitecore/Forms). Also, add a page of the template `/sitecore/templates/Project/FormsExtensionsTester/Pages/ContentPage` in the test-website, referencing the form containing the test of the functionality.
 
 ## Changelog 📜
+### 4.1.1 (for Sitecore 10.3)
+- Fix: Issue 143, add null check for current httpcontext in ValueProviderConditionsContext
+
 ### 4.1.0 (for Sitecore 10.3)
 - Updated compatibility with SC10.3
 
