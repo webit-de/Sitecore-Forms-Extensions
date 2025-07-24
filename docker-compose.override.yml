@@ -25,14 +25,18 @@ services:
       - ./docker/traefik:C:/etc/traefik
   
   mssql:
+    image: ${SITECORE_DOCKER_REGISTRY}nonproduction/mssql-developer:2022-${EXTERNAL_IMAGE_TAG_SUFFIX}
     mem_limit: 2GB
     volumes:
       - ${LOCAL_DATA_PATH}\mssql:c:\data
   
   solr:
+    image: ${SITECORE_DOCKER_REGISTRY}nonproduction/solr:8.11.2-${EXTERNAL_IMAGE_TAG_SUFFIX}
     mem_limit: 1GB
     volumes:
       - ${LOCAL_DATA_PATH}\solr:c:\data
+    healthcheck:
+      test: ["CMD", "powershell", "-command", "try { $$statusCode = (iwr http://solr:8983/solr/admin/cores?action=STATUS -UseBasicParsing).StatusCode; if ($$statusCode -eq 200) { exit 0 } else { exit 1} } catch { exit 1 }"]
 
   cm:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-xp0-cm:${VERSION:-latest}
@@ -52,7 +56,7 @@ services:
       - ${LOCAL_DATA_PATH}\license:c:\license
     environment:
       SITECORE_LICENSE_LOCATION: c:\license\license.xml
-    entrypoint: powershell -Command "& C:\tools\entrypoints\iis\Development.ps1"
+    entrypoint: powershell -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
 
   id:
     volumes:

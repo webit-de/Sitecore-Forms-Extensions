@@ -39,6 +39,23 @@ services:
       - type: bind
         source: .\mssql-data
         target: c:\data
+  mssql-init:
+    isolation: ${ISOLATION}
+    image: ${SITECORE_DOCKER_REGISTRY}sitecore-xp1-mssql-init:${SITECORE_VERSION}
+    environment:
+      SQL_SERVER: mssql
+      SQL_ADMIN_LOGIN: sa
+      SQL_ADMIN_PASSWORD: ${SQL_SA_PASSWORD}
+      SQL_DATABASE_PREFIX: Sitecore
+      SITECORE_ADMIN_PASSWORD: ${SITECORE_ADMIN_PASSWORD}
+      POST_DEPLOYMENT_WAIT_PERIOD: 300
+    healthcheck:
+      test: ["CMD", "powershell", "-command", "if ([System.Environment]::GetEnvironmentVariable('DatabasesDeploymentStatus', 'Machine') -eq 'Complete') { exit 0 } else { exit 1}"]
+      start_period: 300s
+      interval: 5s
+    depends_on:
+      mssql:
+        condition: service_healthy
   solr:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}nonproduction/solr:8.4.0-${SITECORE_VERSION}
@@ -61,7 +78,7 @@ services:
         condition: service_healthy
   id:
     isolation: ${ISOLATION}
-    image: ${SITECORE_DOCKER_REGISTRY}sitecore-id:${SITECORE_VERSION}
+    image: ${SITECORE_DOCKER_REGISTRY}sitecore-id7:${SITECORE_VERSION}
     environment:
       Sitecore_Sitecore__IdentityServer__SitecoreMemberShipOptions__ConnectionString: Data Source=mssql;Initial Catalog=Sitecore.Core;User ID=sa;Password=${SQL_SA_PASSWORD}
       Sitecore_Sitecore__IdentityServer__AccountOptions__PasswordRecoveryUrl: https://${CM_HOST}/sitecore/login?rc=1
@@ -72,10 +89,10 @@ services:
       Sitecore_Sitecore__IdentityServer__CertificateRawDataPassword: ${SITECORE_ID_CERTIFICATE_PASSWORD}
       Sitecore_License: ${SITECORE_LICENSE}
     healthcheck:
-      test: ["CMD", "powershell", "-command", "C:/Healthchecks/Healthcheck.ps1"]
+      test: ["CMD", "pwsh", "-command", "C:/Healthchecks/Healthcheck.ps1"]
       timeout: 300s
     depends_on:
-      mssql:
+      mssql-init:
         condition: service_healthy
     labels:
       - "traefik.enable=true"
@@ -133,7 +150,7 @@ services:
     ports:
       - "8081:80"
     depends_on:
-      mssql:
+      mssql-init:
         condition: service_healthy
       solr-init:
         condition: service_started
@@ -141,6 +158,7 @@ services:
       Sitecore_License: ${SITECORE_LICENSE}
       Sitecore_ConnectionStrings_Messaging: Data Source=mssql;Initial Catalog=Sitecore.Messaging;User ID=sa;Password=${SQL_SA_PASSWORD}
       Sitecore_ConnectionStrings_Processing.Engine.Storage: Data Source=mssql;Initial Catalog=Sitecore.Processing.Engine.Storage;User ID=sa;Password=${SQL_SA_PASSWORD}
+      Sitecore_ConnectionStrings_Processing.Engine.Tasks: Data Source=mssql;Initial Catalog=Sitecore.Processing.Engine.Tasks;User ID=sa;Password=${SQL_SA_PASSWORD}
       Sitecore_ConnectionStrings_Reporting: Data Source=mssql;Initial Catalog=Sitecore.Reporting;User ID=sa;Password=${SQL_SA_PASSWORD}
       Sitecore_ConnectionStrings_Xdb.Marketingautomation: Data Source=mssql;Initial Catalog=Sitecore.Marketingautomation;User ID=sa;Password=${SQL_SA_PASSWORD}
       Sitecore_ConnectionStrings_Xdb.Processing.Pools: Data Source=mssql;Initial Catalog=Sitecore.Processing.pools;User ID=sa;Password=${SQL_SA_PASSWORD}
