@@ -97,8 +97,8 @@ namespace Feature.FormsExtensions.XDb.Repository
                 if (contact == null)
                 {
                     contact = new Contact(new ContactIdentifier(reference.Source,reference.Identifier,ContactIdentifierType.Known));
-                    SetEmail(contact, serviceContact, client);
                     client.AddContact(contact);
+                    SetEmail(contact, serviceContact, client);
                     client.Submit();
                 }
                 else if (contact.Emails()?.PreferredEmail.SmtpAddress != serviceContact.Email)
