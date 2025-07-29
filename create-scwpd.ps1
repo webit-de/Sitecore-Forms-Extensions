@@ -1,5 +1,5 @@
-﻿$Origin = "C:\Projects\Sitecore-Forms-Extensions\downloads\Sitecore 10.1\Sitecore Forms Extensions for SC10.1-4.0.2.zip"
-$Destination = "C:\Projects\Sitecore-Forms-Extensions\downloads\Sitecore 10.1\"
+﻿$Origin = "C:\Users\uhlemann\projects\Sitecore-Forms-Extensions\downloads\Sitecore 10.3\Sitecore Forms Extensions for SC10.3-4.1.2.zip"
+$Destination = "C:\Users\uhlemann\projects\Sitecore-Forms-Extensions\downloads\Sitecore 10.3\"
 
-Import-Module "c:\Applications\Sitecore Azure Toolkit 2.5.0\tools\Sitecore.Cloud.Cmdlets.dll" -Verbose 
+Import-Module "C:\tools\Sitecore Azure Toolkit 2.5.0-r02519.1061\tools\Sitecore.Cloud.Cmdlets.dll" -Verbose 
 $wdpPath = ConvertTo-SCModuleWebDeployPackage -Path $Origin -Destination $Destination -Force
