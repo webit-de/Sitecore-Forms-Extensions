@@ -462,9 +462,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/Styling/{24A89DFD-CE34-4DCC-B3B3-94468078EB69}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/SubmitActions/{5344E1C1-B585-4FB3-B915-ACC39C4D09DF}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Button/SubmitActions/SubmitActionsManager/{4811481E-4F23-4388-892A-41B4FAD1F146}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Captcha/{5B906E2D-D220-4EBF-918F-64F0DAF0BBE0}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Captcha/Details/{02F8625C-9282-435F-BE85-969C30E3B216}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Captcha/Styling/{6B388D41-51C6-4B82-B6D1-EDE2B1CF51AF}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/{50B83345-EEED-49C7-8B62-9CC1EF908D59}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Advanced/{185119DE-E8B1-40A7-B5F0-DA64BD8D4C19}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/CheckBox/Conditions/{B159A074-0B3F-4246-80A2-7891E5CA5A27}/invariant/0</x-item>
@@ -519,10 +516,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Details/MaxFileSize/{634C2E3B-4CF2-464D-B7BB-674A43B81855}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Styling/{64446032-8495-4C52-89E1-9D33FC94163F}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/FileUpload/Validation/{0D4DD775-0DBA-4DBE-B7D5-73A04C4603BE}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/{639A6DB4-3F51-4039-806D-20737D220459}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/Advanced/{E4796607-8930-46B0-B911-9D67DE7CA61C}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/Bindings/{3359B2A9-8914-473A-B861-A2E2F064EC72}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Hidden/Details/{70C868D9-EE26-4053-91ED-CDC491F28B44}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/{73FD871C-848A-4469-AC50-C08DAA766BC5}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/Advanced/{13B2DD42-1FAB-4905-B2A8-327344C2DF06}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/ListBox/Conditions/{DD632CFE-8BA1-4FCE-A900-E5097FF67880}/invariant/0</x-item>
@@ -577,10 +570,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/ListItems/DatasourceManager/{DF19F93D-D567-4065-9FCA-87B96FC893FD}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/Styling/{18AC8A7F-346F-4CE5-98C7-D6F6F425B7F4}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RadioList/Validation/{0AB675F8-3F28-4AB3-9884-816287F58505}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/{D8A5B236-5018-403F-BEBA-544C1B5CF78B}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/Details/{D6F7729A-4A56-4525-ADD5-B4BA84561A3E}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/Details/Html/{5836BD01-61AC-4FFE-9726-035111C4CC5C}/invariant/0</x-item>
-        <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/RawHtml/Styling/{39EBE7DB-9501-4D22-9FDB-AB4FA31E67FB}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section/{9DA02DA3-C142-4AAC-9C0B-0E9A9731088C}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section/Conditions/{C3ECCAF5-BF6C-45BB-B98C-843D9BD94029}/invariant/0</x-item>
         <x-item>/core/sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/Section/Details/{98638538-D7F8-4752-8780-E13494CF513A}/invariant/0</x-item>
@@ -601,14 +590,11 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/{0C661B19-300E-44AC-A6A3-46EBE503E463}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/{B5350D9A-CEEE-4D15-B9FF-797CEACCCDC7}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Checkbox/{4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Email Confirmation/{72B22999-8509-49A1-BD0C-04D68A9131CD}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/File Upload/{7E9A0903-A52C-4843-BBE1-5B26BD162BED}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Hidden/{B67C70C1-6776-4BCB-8529-AA28E02F6412}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/RawHtml/{F6ABF2D4-D864-48D7-A464-75025A42162E}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Basic/Text/{983BFA5F-C6B6-4AEE-A3BB-46B95D52E7DF}/invariant/0</x-item>
@@ -621,8 +607,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Security/{E6DCA512-A4FA-47F3-AAF2-06939F51D547}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Security/Password Confirmation/{6293530F-36A1-4CA6-A2E6-C59C9343F096}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Security/Password/{668A1C37-9D6B-483B-B7C1-340C92D04BA4}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Security/ReCaptcha/{E383BDE2-BC88-4278-83EF-832A15C9E94A}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/Field Types/Security/RobotDetection/{5A14874E-D695-4093-9101-8B406C7C2EB1}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Structure/{77D13F14-E78F-4476-8A2E-2B011FE0FB97}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Structure/Page/{D819B43E-C136-4392-9393-8BE7FCE32F5E}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Field Types/Structure/Section/{447AA745-6D29-4B65-A5A3-8173AA8AF548}/invariant/0</x-item>
@@ -657,9 +641,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/master/sitecore/system/Settings/Forms/Value Providers/Experience Profile/Phone Number/Phone Number Country Code/{BE0D03AE-BB77-4841-A89C-AF11E38BBB66}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Value Providers/Experience Profile/Phone Number/Phone Number Extension/{9D4A9270-9975-447C-AE6F-111027FE9E19}/invariant/0</x-item>
         <x-item>/master/sitecore/system/Settings/Forms/Value Providers/Experience Profile/Phone Number/Phone Number/{87AE1239-D76B-4053-969E-B86A55895265}/invariant/0</x-item>
-        <x-item>/master/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/{9CE6CA02-9F13-45A0-A8A4-5AAF6269C3C7}/invariant/0</x-item>
-        <x-item>/master/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/{7E232D67-8719-4369-A0B2-C926DC09CC3D}/invariant/0</x-item>
-        <x-item>/master/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/ValueProviderConditions/{3D1B3E30-5540-4A40-9341-ACACF949CD53}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/__Standard Values/{3960768C-2558-4D14-A874-F1465C79D1B2}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/{91454FBB-7AA6-40F3-BD9A-49B2A42BF5E0}/invariant/0</x-item>
         <x-item>/master/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/Value Provider Settings/{EDACB8D9-EED2-4FF2-90B5-20663A118AF8}/invariant/0</x-item>
@@ -667,14 +648,11 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/{0C661B19-300E-44AC-A6A3-46EBE503E463}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/{B5350D9A-CEEE-4D15-B9FF-797CEACCCDC7}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Checkbox/{4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Date/{38137D30-7B2A-47D5-BBD8-133252C01B28}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Email Confirmation/{72B22999-8509-49A1-BD0C-04D68A9131CD}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Email/{04C39CAC-8976-4910-BE0D-879ED3368429}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/File Upload/{7E9A0903-A52C-4843-BBE1-5B26BD162BED}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Hidden/{B67C70C1-6776-4BCB-8529-AA28E02F6412}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Multiple-Line Text/{A296A1C1-0DA0-4493-A92E-B8191F43AEC6}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Number/{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/RawHtml/{F6ABF2D4-D864-48D7-A464-75025A42162E}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Single-Line Text/{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Telephone/{DF74F55B-47E6-4D1C-92F8-B0D46A7B2704}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Basic/Text/{983BFA5F-C6B6-4AEE-A3BB-46B95D52E7DF}/invariant/0</x-item>
@@ -687,8 +665,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Security/{E6DCA512-A4FA-47F3-AAF2-06939F51D547}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Security/Password Confirmation/{6293530F-36A1-4CA6-A2E6-C59C9343F096}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Security/Password/{668A1C37-9D6B-483B-B7C1-340C92D04BA4}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Security/ReCaptcha/{E383BDE2-BC88-4278-83EF-832A15C9E94A}/invariant/0</x-item>
-        <x-item>/web/sitecore/system/Settings/Forms/Field Types/Security/RobotDetection/{5A14874E-D695-4093-9101-8B406C7C2EB1}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Structure/{77D13F14-E78F-4476-8A2E-2B011FE0FB97}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Structure/Page/{D819B43E-C136-4392-9393-8BE7FCE32F5E}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Field Types/Structure/Section/{447AA745-6D29-4B65-A5A3-8173AA8AF548}/invariant/0</x-item>
@@ -723,9 +699,6 @@ Copyright (c) 2017-2021 Bart Verdonck</Readme>
         <x-item>/web/sitecore/system/Settings/Forms/Value Providers/Experience Profile/Phone Number/Phone Number Country Code/{BE0D03AE-BB77-4841-A89C-AF11E38BBB66}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Value Providers/Experience Profile/Phone Number/Phone Number Extension/{9D4A9270-9975-447C-AE6F-111027FE9E19}/invariant/0</x-item>
         <x-item>/web/sitecore/system/Settings/Forms/Value Providers/Experience Profile/Phone Number/Phone Number/{87AE1239-D76B-4053-969E-B86A55895265}/invariant/0</x-item>
-        <x-item>/web/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/{9CE6CA02-9F13-45A0-A8A4-5AAF6269C3C7}/invariant/0</x-item>
-        <x-item>/web/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/{7E232D67-8719-4369-A0B2-C926DC09CC3D}/invariant/0</x-item>
-        <x-item>/web/sitecore/templates/Modules/FormExtensions/ContainsValueProviderConditions/Value Provider/ValueProviderConditions/{3D1B3E30-5540-4A40-9341-ACACF949CD53}/invariant/0</x-item>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/__Standard Values/{3960768C-2558-4D14-A874-F1465C79D1B2}/invariant/0</x-item>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/{91454FBB-7AA6-40F3-BD9A-49B2A42BF5E0}/invariant/0</x-item>
         <x-item>/web/sitecore/templates/Modules/FormExtensions/Extended Value Provider Settings/Value Provider Settings/{EDACB8D9-EED2-4FF2-90B5-20663A118AF8}/invariant/0</x-item>
